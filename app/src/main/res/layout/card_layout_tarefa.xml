@@ -5,10 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:background="#00C2CB"
-    android:backgroundTint="#00C2CB"
+    android:background="#311B92"
     android:padding="20dp"
-    app:cardCornerRadius="30dp"
+    app:cardCornerRadius="10dp"
     app:cardElevation="30dp">
 
     <LinearLayout
@@ -19,13 +18,14 @@
         android:orientation="vertical"
         android:padding="10dp">
 
+
         <TextView
             android:id="@+id/textautor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
-            android:textAlignment="center"
-            android:textColor="@color/ic_launcher_background"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             tools:text="Autor" />
@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
-            android:textAlignment="center"
+            android:textAlignment="viewStart"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -77,6 +77,29 @@
             android:textSize="16sp"
             android:textStyle="bold"
             tools:text="Data" />
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/deletebutton"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bottom_ia"
+                android:text="DELETAR"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/editbuttom"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="170dp"
+                android:background="@drawable/shape_bottom_ia"
+                android:text="Editar" />
+        </LinearLayout>
+
 
     </LinearLayout>
 
