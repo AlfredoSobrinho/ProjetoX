@@ -22,8 +22,7 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="16dp"
         android:clickable="true"
         android:contentDescription="@string/floatingActionButton"
         android:focusable="true"
@@ -31,6 +30,8 @@
         app:backgroundTint="#00C2CB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

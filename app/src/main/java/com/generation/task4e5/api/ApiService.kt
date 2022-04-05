@@ -6,6 +6,8 @@ import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.PUT
+import java.util.*
 
 interface ApiService {
 
@@ -20,6 +22,10 @@ interface ApiService {
     suspend fun addPost(
         @Body post: Post
     ): Response<Post>
+
+    @PUT("postagens")
+    suspend fun updatePost(
+        @Body post : Post) : Response<Post>
 
 
 }

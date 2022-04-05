@@ -8,9 +8,9 @@
     <application
         android:name=".AjudaAquiApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo1"
         android:label="AJUDAQUI"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logo2"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
