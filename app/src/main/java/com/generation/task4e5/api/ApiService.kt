@@ -3,10 +3,7 @@ package com.generation.task4e5.api
 import com.generation.task4e5.model.Post
 import com.generation.task4e5.model.Temas
 import retrofit2.Response
-import retrofit2.http.Body
-import retrofit2.http.GET
-import retrofit2.http.POST
-import retrofit2.http.PUT
+import retrofit2.http.*
 import java.util.*
 
 interface ApiService {
@@ -26,6 +23,13 @@ interface ApiService {
     @PUT("postagens")
     suspend fun updatePost(
         @Body post : Post) : Response<Post>
+
+    @DELETE("postagens/{id}")
+    suspend fun deletarPost(
+        @Path("id") valor : Long
+    ): Response<Post>
+
+
 
 
 }
