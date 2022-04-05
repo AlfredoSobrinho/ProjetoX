@@ -12,6 +12,7 @@ import androidx.navigation.fragment.findNavController
 import com.generation.task4e5.databinding.FragmentSegundoBinding
 import com.generation.task4e5.model.Post
 import com.generation.task4e5.model.Temas
+import retrofit2.http.POST
 import java.time.LocalDate
 
 class SegundoFragment : Fragment() {
@@ -19,6 +20,8 @@ class SegundoFragment : Fragment() {
     private lateinit var binding: FragmentSegundoBinding
 
     private var temaSelecionado = 0L
+
+    private var postSelecionado: Post? = null
 
     private val mainViewmodel: MainViewModel by activityViewModels()
 
@@ -29,12 +32,17 @@ class SegundoFragment : Fragment() {
 
         binding = FragmentSegundoBinding.inflate(layoutInflater, container, false)
 
+
+        carregardados()
+
         mainViewmodel.listTemas()
 
         mainViewmodel.myTemasResponse.observe(viewLifecycleOwner) { response ->
             Log.d("Requisicao", response.body().toString())
             spinnerTemas(response.body())
         }
+
+        Log.d("erro3", postSelecionado.toString())
 
 
 
@@ -93,7 +101,6 @@ class SegundoFragment : Fragment() {
                 (descricao == "" || descricao.length < 3 || descricao.length > 200)
 
 
-
     }
 
 
@@ -107,28 +114,61 @@ class SegundoFragment : Fragment() {
         val temas = Temas(temaSelecionado, null, null)
         val data = LocalDate.now().toString()
 
-
-        if (autor.isEmpty()|| titulo.isEmpty() ||descricao.isEmpty()) {
+        if (autor.isEmpty() || titulo.isEmpty() || descricao.isEmpty()) {
             Toast.makeText(
-                context,  "Preencha todos os campos!", Toast.LENGTH_LONG
-            ).show()}
-
-        else {
+                context, "Preencha todos os campos!", Toast.LENGTH_LONG
+            ).show()
+        } else {
 
             validarCampos(autor, imagem, titulo, descricao)
+            if (postSelecionado == null) {
+
+                val post = Post(
+                    0, titulo, descricao, imagem, data, autor, temas
+                )
+
+                mainViewmodel.addPost(post)
+            } else {
 
 
-            val post = Post(
-                0, titulo, descricao, imagem, data, autor, temas
-            )
+                val post = Post(
+                    postSelecionado!!.id, titulo, descricao, imagem, data, autor, temas
+                )
 
-            mainViewmodel.addPost(post)
+                mainViewmodel.updatePost(post)
+
+
+            }
+
+
             Toast.makeText(
 
                 context, "Postado",
                 Toast.LENGTH_LONG
             ).show()
             findNavController().navigate(R.id.action_segundoFragment_to_listFragment)
+        }
+    }
+
+
+    private fun carregardados() {
+
+        postSelecionado = mainViewmodel.postSelecionado
+        if (postSelecionado != null) {
+
+            binding.editTextTextPersonName.setText(postSelecionado?.autor)
+            binding.editTextTextPersonName4.setText(postSelecionado?.titulo)
+            binding.editTextTextPersonName3.setText(postSelecionado?.imagem)
+            binding.editTextTextPersonName5.setText(postSelecionado?.descricao)
+            binding.editTextTextPersonName7.setText(postSelecionado?.dataHora)
+        } else {
+
+            binding.editTextTextPersonName.text = null
+            binding.editTextTextPersonName4.text = null
+            binding.editTextTextPersonName3.text = null
+            binding.editTextTextPersonName5.text = null
+            binding.editTextTextPersonName7.text = null
+
         }
 
     }
@@ -157,5 +197,5 @@ class SegundoFragment : Fragment() {
 */
 
 
-    }
+}
 

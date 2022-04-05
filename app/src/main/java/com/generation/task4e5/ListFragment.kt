@@ -12,11 +12,12 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.generation.task4e5.adapter.Postadapter
+import com.generation.task4e5.adapter.TaskItemClickListener
 import com.generation.task4e5.model.Post
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 
-class ListFragment : Fragment() {
+class ListFragment : Fragment(), TaskItemClickListener {
 
     private val mainViewModel: MainViewModel by activityViewModels()
 
@@ -33,7 +34,7 @@ class ListFragment : Fragment() {
 
         val recyclepost = view.findViewById<RecyclerView>(R.id.recycletarefa)
 
-        val adapter = Postadapter()
+        val adapter = Postadapter(this, mainViewModel)
 
         recyclepost.layoutManager = LinearLayoutManager(context)
         recyclepost.adapter = adapter
@@ -44,7 +45,7 @@ class ListFragment : Fragment() {
         val botaoir = view.findViewById<FloatingActionButton>(R.id.floatingActionButton)
 
         botaoir.setOnClickListener {
-
+           mainViewModel.postSelecionado = null
             findNavController().navigate(
                 R.id.action_listFragment_to_segundoFragment
             )
@@ -65,6 +66,13 @@ class ListFragment : Fragment() {
         })
 
         return view
+    }
+
+    override fun onTaskClicked(post: Post) {
+
+        mainViewModel.postSelecionado = post
+        findNavController().navigate(R.id.action_listFragment_to_segundoFragment)
+
     }
 
 }

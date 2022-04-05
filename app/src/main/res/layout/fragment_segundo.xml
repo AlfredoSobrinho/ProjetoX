@@ -34,7 +34,9 @@
             android:id="@+id/spinner"
             android:layout_width="match_parent"
             android:layout_height="41dp"
-            android:entries="@android:array/organizationTypes" />
+            android:backgroundTint="@color/white"
+            android:entries="@android:array/organizationTypes"
+            android:hapticFeedbackEnabled="false" />
 
         <EditText
             android:id="@+id/editTextTextPersonName4"

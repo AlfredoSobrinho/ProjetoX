@@ -6,10 +6,16 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.generation.task4e5.MainViewModel
 import com.generation.task4e5.R
 import com.generation.task4e5.model.Post
 
-class Postadapter : RecyclerView.Adapter<Postadapter.postViewHolder>(){
+class Postadapter (
+
+    private val taskItemClickListener: TaskItemClickListener,
+    private val mainViewModel: MainViewModel
+
+    ): RecyclerView.Adapter<Postadapter.postViewHolder>(){
 
      private var listapost = emptyList<Post>()
 
@@ -45,6 +51,11 @@ class Postadapter : RecyclerView.Adapter<Postadapter.postViewHolder>(){
         holder.texttitulo.text= post.titulo
         holder.textdescricao.text= post.descricao
         holder.textdata.text= post.dataHora
+
+        holder.itemView.setOnClickListener {
+            taskItemClickListener.onTaskClicked(post)
+        }
+
 
 
     }

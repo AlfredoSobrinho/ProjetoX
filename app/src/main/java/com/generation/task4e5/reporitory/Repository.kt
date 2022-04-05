@@ -25,5 +25,10 @@ class Repository {
 
     }
 
+    suspend fun  updatePost(post: Post) : Response<Post>{
+        return RetrofitInstance.api.updatePost(post)
+
+    }
+
 
 }
