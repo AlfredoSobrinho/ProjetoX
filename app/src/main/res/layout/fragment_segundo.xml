@@ -114,6 +114,7 @@
             android:backgroundTint="#00C2CB"
             android:text="@string/Postar"
             android:textColor="@color/white" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@ package com.generation.task4e5.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -29,6 +30,9 @@ class Postadapter (
         val texttitulo =view.findViewById<TextView>(R.id.texttitulo)
         val textdescricao =view.findViewById<TextView>(R.id.textdescricao)
         val textdata =view.findViewById<TextView>(R.id.textdata)
+        val botaodeletar =view.findViewById<Button>(R.id.deletebutton)
+        val editbuttom = view.findViewById<Button>(R.id.editbuttom)
+
 
     }
 
@@ -52,9 +56,19 @@ class Postadapter (
         holder.textdescricao.text= post.descricao
         holder.textdata.text= post.dataHora
 
-        holder.itemView.setOnClickListener {
+
+        holder.editbuttom.setOnClickListener {
             taskItemClickListener.onTaskClicked(post)
         }
+
+        holder.botaodeletar.setOnClickListener {
+
+            mainViewModel.deletarPost(post.id)
+        }
+
+
+
+
 
 
 
