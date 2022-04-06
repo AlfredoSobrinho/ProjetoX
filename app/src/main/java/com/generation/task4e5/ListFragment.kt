@@ -1,12 +1,10 @@
 package com.generation.task4e5
 
 import android.os.Bundle
-import android.service.controls.actions.FloatAction
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageButton
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
@@ -71,7 +69,7 @@ class ListFragment : Fragment(), TaskItemClickListener {
 
 
 
-        val botaocatalogolist = view.findViewById<ImageButton>(R.id.catalogo_listfrag)
+        val botaocatalogolist = view.findViewById<ImageButton>(R.id.catalogo_doarfrag)
 
         botaocatalogolist.setOnClickListener {
 
@@ -80,6 +78,27 @@ class ListFragment : Fragment(), TaskItemClickListener {
             )
 
         }
+        val botaodoarlist = view.findViewById<ImageButton>(R.id.doar_doar)
+
+        botaodoarlist.setOnClickListener {
+
+            findNavController().navigate(
+                R.id.action_listFragment_to_doarFragment
+            )
+
+        }
+        val botaoperfillist = view.findViewById<ImageButton>(R.id.perfil_doar)
+
+        botaoperfillist.setOnClickListener {
+
+            findNavController().navigate(
+                R.id.action_listFragment_to_perfilragment
+            )
+
+        }
+
+
+
 
         return view
     }
