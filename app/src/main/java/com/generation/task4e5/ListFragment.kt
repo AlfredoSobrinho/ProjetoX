@@ -41,7 +41,7 @@ class ListFragment : Fragment(), TaskItemClickListener {
         recyclepost.setHasFixedSize(true)
 
 
-        val botaoir = view.findViewById<FloatingActionButton>(R.id.floatingActionButton)
+        val botaoir = view.findViewById<ImageButton>(R.id.floatingActionButton)
 
         botaoir.setOnClickListener {
            mainViewModel.postSelecionado = null

@@ -21,21 +21,6 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="54dp"
-        android:layout_height="415dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="60dp"
-        android:clickable="true"
-        android:contentDescription="@string/floatingActionButton"
-        android:focusable="true"
-        android:src="@drawable/ic_baseline_add_24"
-        app:backgroundTint="#00C2CB"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="ImageContrastCheck" />
-
     <LinearLayout
         android:layout_width="382dp"
         android:layout_height="57dp"
@@ -55,6 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
+            android:backgroundTint="@color/white"
             android:src="@drawable/ic_baseline_home_24" />
 
         <ImageButton
@@ -63,14 +49,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
+            android:backgroundTint="@color/white"
             android:src="@drawable/ic_baseline_list_24"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/add_listfrag"
+            android:id="@+id/floatingActionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
             android:src="@drawable/ic_baseline_add_box_24" />
 
         <ImageButton
@@ -79,6 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 
+            android:backgroundTint="@color/white"
             android:src="@drawable/ic_baseline_person_24" />
 
         <ImageButton
@@ -86,6 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="@color/white"
             android:src="@drawable/ic_baseline_favorite_24" />
 
     </LinearLayout>
