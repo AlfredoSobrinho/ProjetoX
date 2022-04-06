@@ -1,7 +1,9 @@
 package com.generation.task4e5
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import com.generation.task4e5.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -13,7 +15,13 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+
+        }
+
+
+
     }
 
 
-}

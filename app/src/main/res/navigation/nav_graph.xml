@@ -78,7 +78,23 @@
         android:id="@+id/perfilragment"
         android:name="com.generation.task4e5.Perfilragment"
         android:label="fragment_perfilragment"
-        tools:layout="@layout/fragment_perfilragment" />
+        tools:layout="@layout/fragment_perfilragment" >
+        <action
+            android:id="@+id/action_perfilragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_perfilragment_to_doarFragment"
+            app:destination="@id/doarFragment" />
+        <action
+            android:id="@+id/action_perfilragment_to_catalogoFragment"
+            app:destination="@id/catalogoFragment" />
+        <action
+            android:id="@+id/action_perfilragment_to_editDadosFragment"
+            app:destination="@id/editDadosFragment" />
+        <action
+            android:id="@+id/action_perfilragment_to_segundoFragment"
+            app:destination="@id/segundoFragment" />
+    </fragment>
     <fragment
         android:id="@+id/catalogoFragment"
         android:name="com.generation.task4e5.CatalogoFragment"
@@ -87,6 +103,18 @@
         <action
             android:id="@+id/action_catalogoFragment_to_listFragment"
             app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_catalogoFragment_to_doarFragment"
+            app:destination="@id/doarFragment" />
+        <action
+            android:id="@+id/action_catalogoFragment_to_perfilragment"
+            app:destination="@id/perfilragment" />
+        <action
+            android:id="@+id/action_catalogoFragment_to_editDadosFragment"
+            app:destination="@id/editDadosFragment" />
+        <action
+            android:id="@+id/action_catalogoFragment_to_segundoFragment"
+            app:destination="@id/segundoFragment" />
     </fragment>
     <fragment
         android:id="@+id/doarFragment"
@@ -96,6 +124,21 @@
         <action
             android:id="@+id/action_doarFragment_to_listFragment"
             app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_doarFragment_to_perfilragment"
+            app:destination="@id/perfilragment" />
+        <action
+            android:id="@+id/action_doarFragment_to_catalogoFragment"
+            app:destination="@id/catalogoFragment" />
+        <action
+            android:id="@+id/action_doarFragment_to_catalogoFragment2"
+            app:destination="@id/catalogoFragment" />
+        <action
+            android:id="@+id/action_doarFragment_to_editDadosFragment"
+            app:destination="@id/editDadosFragment" />
+        <action
+            android:id="@+id/action_doarFragment_to_segundoFragment"
+            app:destination="@id/segundoFragment" />
     </fragment>
     <fragment
         android:id="@+id/editDadosFragment"
@@ -108,5 +151,17 @@
         <action
             android:id="@+id/action_editDadosFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_editDadosFragment_to_doarFragment"
+            app:destination="@id/doarFragment" />
+        <action
+            android:id="@+id/action_editDadosFragment_to_perfilragment"
+            app:destination="@id/perfilragment" />
+        <action
+            android:id="@+id/action_editDadosFragment_to_catalogoFragment"
+            app:destination="@id/catalogoFragment" />
+        <action
+            android:id="@+id/action_editDadosFragment_to_segundoFragment"
+            app:destination="@id/segundoFragment" />
     </fragment>
 </navigation>

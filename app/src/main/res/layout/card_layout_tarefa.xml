@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:background="#311B92"
+    android:backgroundTint="#00C2CB"
     android:padding="20dp"
     app:cardCornerRadius="10dp"
     app:cardElevation="30dp">
@@ -95,7 +96,7 @@
                 android:id="@+id/editbuttom"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="170dp"
+                android:layout_marginStart="159dp"
                 android:background="@drawable/shape_bottom_ia"
                 android:text="Editar" />
         </LinearLayout>

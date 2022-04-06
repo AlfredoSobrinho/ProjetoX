@@ -9,20 +9,24 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycletarefa"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="411dp"
+        android:layout_height="675dp"
+        android:layout_marginEnd="9dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
     </androidx.recyclerview.widget.RecyclerView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_width="54dp"
+        android:layout_height="415dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="60dp"
         android:clickable="true"
         android:contentDescription="@string/floatingActionButton"
         android:focusable="true"
@@ -30,8 +34,57 @@
         app:backgroundTint="#00C2CB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="ImageContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycletarefa" >
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_baseline_home_24" />
+
+        <ImageButton
+            android:id="@+id/catalogo_listfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_baseline_list_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/perfil_listfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_baseline_person_24" />
+
+        <ImageButton
+            android:id="@+id/doar_listfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_favorite_24" />
+
+        <ImageButton
+            android:id="@+id/add_listfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_add_box_24" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
