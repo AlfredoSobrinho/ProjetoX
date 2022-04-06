@@ -33,7 +33,7 @@ class ListFragment : Fragment(), TaskItemClickListener {
 
         val recyclepost = view.findViewById<RecyclerView>(R.id.recycletarefa)
 
-        val adapter = Postadapter(this, mainViewModel)
+        val adapter = Postadapter(this, mainViewModel,requireContext())
 
         recyclepost.layoutManager = LinearLayoutManager(context)
         recyclepost.adapter = adapter
