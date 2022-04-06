@@ -10,14 +10,15 @@
 
     <ImageView
         android:id="@+id/imageView23"
-        android:layout_width="401dp"
-        android:layout_height="516dp"
+        android:layout_width="395dp"
+        android:layout_height="486dp"
         android:src="@drawable/img_fundo_ideal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497" />
+        app:layout_constraintVertical_bias="0.415" />
 
     <TextView
 
@@ -155,22 +156,24 @@
 
 
     <LinearLayout
-        android:layout_width="408dp"
-        android:layout_height="53dp"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="3dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recycletarefa" >
+        app:layout_constraintTop_toBottomOf="@+id/recycletarefa"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageButton
             android:id="@+id/homehome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="48dp"
+
             android:src="@drawable/ic_baseline_home_24" />
 
         <ImageButton
@@ -178,7 +181,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="48dp"
+
             android:src="@drawable/ic_baseline_list_24"
             tools:ignore="SpeakableTextPresentCheck" />
 
@@ -194,7 +197,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="48dp"
+
             android:src="@drawable/ic_baseline_person_24" />
 
         <ImageButton

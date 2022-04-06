@@ -54,9 +54,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="346dp"
-            android:layout_height="230dp"
-            app:srcCompat="@drawable/ongs" />
+            android:layout_width="344dp"
+            android:layout_height="245dp"
+
+            tools:srcCompat="@android:drawable/ic_menu_report_image" />
 
         <TextView
             android:id="@+id/textdescricao"
