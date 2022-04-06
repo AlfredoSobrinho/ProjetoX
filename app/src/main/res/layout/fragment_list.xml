@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/recycletarefa" >
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/homehome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -56,7 +56,7 @@
             android:src="@drawable/ic_baseline_home_24" />
 
         <ImageButton
-            android:id="@+id/catalogo_listfrag"
+            android:id="@+id/catalogo_doarfrag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -65,7 +65,14 @@
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/perfil_listfrag"
+            android:id="@+id/add_listfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_add_box_24" />
+
+        <ImageButton
+            android:id="@+id/perfil_doar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -73,18 +80,12 @@
             android:src="@drawable/ic_baseline_person_24" />
 
         <ImageButton
-            android:id="@+id/doar_listfrag"
+            android:id="@+id/doar_doar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_baseline_favorite_24" />
 
-        <ImageButton
-            android:id="@+id/add_listfrag"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/ic_baseline_add_box_24" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
