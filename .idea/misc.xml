@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/drawable/shape_bottom.xml" value="0.13" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/drawable/shape_bottom_ia.xml" value="0.13" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/activity_main.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/card_layout_tarefa.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_bemvindo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_cadastro.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_catalogo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_doar.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_edit_dados.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_i_a.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_list.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_login.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_perfilragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/fragment_segundo.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Task4e5/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Task4e5/app/src/main/res/layout/card_layout_tarefa.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Task4e5/app/src/main/res/layout/fragment_list.xml" value="0.209375" />
