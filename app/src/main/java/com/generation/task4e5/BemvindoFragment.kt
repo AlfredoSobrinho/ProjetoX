@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageButton
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
 import com.generation.task4e5.databinding.FragmentBemvindoBinding
 import com.generation.task4e5.databinding.FragmentSegundoBinding
 
@@ -23,15 +24,19 @@ class BemvindoFragment : Fragment() {
         // Inflate the layout for this fragment
 
 
-        binding = FragmentBemvindoBinding.inflate(layoutInflater, container, false)
-        val intent = Intent(context, LoginFragment::class.java)
+        val view = inflater.inflate(R.layout.fragment_bemvindo, container, false)
 
-        binding.imageButton.setOnClickListener {
+        val bemvindoButton = view.findViewById<ImageButton>(R.id.imageButton)
 
-            startActivity(intent)
+
+        bemvindoButton.setOnClickListener {
+            findNavController().navigate(R.id.action_bemvindoFragment_to_loginFragment)
+
         }
 
-        return binding.root
+
+
+        return view
     }
 
 
