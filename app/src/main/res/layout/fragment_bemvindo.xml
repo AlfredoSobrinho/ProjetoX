@@ -43,12 +43,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton"
-        android:layout_width="125dp"
-        android:layout_height="54dp"
-        android:backgroundTint="#580CEF"
-        android:scaleType="centerInside"
+        android:layout_width="132dp"
+        android:layout_height="42dp"
+        android:background="@drawable/shape_bottom"
+        android:scaleType="center"
+        android:text="Bem Vindo!"
+        android:textSize="12dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
         android:scaleX="1.7"
         android:scaleY="1.7"
         android:src="@drawable/design_sem_nome_1__removebg_preview"
@@ -58,21 +62,5 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:layout_constraintVertical_bias="0.309" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:text="Bem Vindo!"
-        android:textAlignment="center"
-        android:textColor="#FAF7F7"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.907" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

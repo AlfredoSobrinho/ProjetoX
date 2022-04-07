@@ -7,25 +7,58 @@
     android:background="#580CEF "
     tools:context=".Perfilragment">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="1dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ajudaquiName"
+            android:layout_width="178dp"
+            android:layout_height="match_parent"
+            android:elevation="100sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="AJUDAQUI"
+            android:textColor="@color/roxo_back"
+            android:textColorHighlight="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageView8"
+            android:layout_width="80dp"
+            android:background="@color/white"
+            android:layout_height="match_parent"
+            android:layout_marginStart="135dp"
+            android:src="@drawable/ic_baseline_dehaze_24" />
+
+
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/fundoOngView"
-        android:layout_width="433dp"
-        android:layout_height="266dp"
+        android:layout_width="429dp"
+        android:layout_height="235dp"
         android:layout_marginStart="38dp"
-        android:layout_marginTop="16dp"
         android:contentDescription="TODO"
         android:scaleType="center"
         android:src="@drawable/ongbanco"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="423dp"
         android:layout_height="137dp"
-        android:layout_marginTop="8dp"
         android:scaleType="fitXY"
         android:src="@drawable/bloco1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -117,7 +150,7 @@
         android:id="@+id/sobreText"
         android:layout_width="199dp"
         android:layout_height="37dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-black"
         android:text="SOBRE NÓS:"
         android:textColor="#311B92"
