@@ -89,7 +89,7 @@
         android:layout_width="173dp"
         android:layout_height="49dp"
         android:layout_marginTop="28dp"
-        android:background="#00C2CB"
+        android:background="@drawable/shape_bottom_ia"
         android:fontFamily="sans-serif"
         android:text="ENTRAR"
         android:textSize="20sp"
