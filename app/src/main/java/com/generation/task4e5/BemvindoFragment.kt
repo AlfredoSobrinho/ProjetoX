@@ -26,7 +26,7 @@ class BemvindoFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_bemvindo, container, false)
 
-        val bemvindoButton = view.findViewById<ImageButton>(R.id.imageButton)
+        val bemvindoButton = view.findViewById<Button>(R.id.imageButton)
 
 
         bemvindoButton.setOnClickListener {

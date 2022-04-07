@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/drawable/ic_baseline_edit_note_24.xml" value="0.2115" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/drawable/shape_container_catalogo.xml" value="0.1505" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/drawable/shape_editdados.xml" value="0.2115" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/drawable/shape_ongs.xml" value="0.1505" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/card_layout_tarefa.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_bemvindo.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_cadastro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_catalogo.xml" value="0.21" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_doar.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_edit_dados.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_i_a.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_list.xml" value="0.21" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_perfilragment.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoX-6 para teste/app/src/main/res/layout/fragment_segundo.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/drawable/shape_bottom.xml" value="0.13" />
         <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/drawable/shape_bottom_ia.xml" value="0.13" />
         <entry key="..\:/Users/User/AndroidStudioProjects/ProjetoXfinalVersion/app/src/main/res/layout/card_layout_tarefa.xml" value="0.33" />
