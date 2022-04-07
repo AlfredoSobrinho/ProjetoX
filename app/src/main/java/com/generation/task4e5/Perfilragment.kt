@@ -53,6 +53,15 @@ class Perfilragment : Fragment() {
             )
 
         }
+        val botaoeditdadosperfil = view.findViewById<ImageButton>(R.id.imageView88)
+
+        botaoeditdadosperfil.setOnClickListener {
+
+            findNavController().navigate(
+                R.id.action_perfilragment_to_editDadosFragment
+            )
+
+        }
 
 
 

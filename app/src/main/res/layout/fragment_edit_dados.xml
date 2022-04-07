@@ -44,7 +44,7 @@
             android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/imageView8"
+            android:id="@+id/imageView88"
             android:layout_width="60dp"
             android:background="@color/white"
             android:layout_height="match_parent"

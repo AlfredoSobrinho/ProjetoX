@@ -96,7 +96,15 @@ class ListFragment : Fragment(), TaskItemClickListener {
             )
 
         }
+        val botaoeditdados = view.findViewById<ImageButton>(R.id.imageView88)
 
+        botaoeditdados.setOnClickListener {
+
+            findNavController().navigate(
+                R.id.action_listFragment_to_editDadosFragment
+            )
+
+        }
 
 
 

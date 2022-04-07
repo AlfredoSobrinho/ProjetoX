@@ -59,6 +59,16 @@ class CatalogoFragment : Fragment() {
 
         }
 
+        val botaoeditdadoscatalogo = view.findViewById<ImageButton>(R.id.imageView88)
+
+        botaoeditdadoscatalogo.setOnClickListener {
+
+            findNavController().navigate(
+                R.id.action_catalogoFragment_to_editDadosFragment
+            )
+
+        }
+
 
    return view
 
