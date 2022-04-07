@@ -62,6 +62,15 @@ class DoarFragment : Fragment() {
             )
 
         }
+        val botaoeditdadosdoar = view.findViewById<ImageButton>(R.id.imageView88)
+
+        botaoeditdadosdoar.setOnClickListener {
+
+            findNavController().navigate(
+                R.id.action_doarFragment_to_editDadosFragment
+            )
+
+        }
 
 
 

@@ -131,9 +131,6 @@
             android:id="@+id/action_doarFragment_to_catalogoFragment"
             app:destination="@id/catalogoFragment" />
         <action
-            android:id="@+id/action_doarFragment_to_catalogoFragment2"
-            app:destination="@id/catalogoFragment" />
-        <action
             android:id="@+id/action_doarFragment_to_editDadosFragment"
             app:destination="@id/editDadosFragment" />
         <action
