@@ -91,7 +91,6 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:textStyle="bold"
             tools:text="Descrição" />
 
         <TextView
