@@ -115,6 +115,9 @@
         <action
             android:id="@+id/action_catalogoFragment_to_segundoFragment"
             app:destination="@id/segundoFragment" />
+        <action
+            android:id="@+id/action_catalogoFragment_to_perfilragment2"
+            app:destination="@id/perfilragment" />
     </fragment>
     <fragment
         android:id="@+id/doarFragment"

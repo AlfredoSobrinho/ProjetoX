@@ -28,6 +28,7 @@ class DoarFragment : Fragment() {
             buttonDoacao.setOnClickListener {
 
                 Toast.makeText(context, "Doação Feita", Toast.LENGTH_LONG).show()
+                findNavController().navigate(R.id.action_doarFragment_to_listFragment)
             }
         }
 

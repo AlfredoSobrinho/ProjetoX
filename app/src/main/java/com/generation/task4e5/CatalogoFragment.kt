@@ -6,11 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
-import androidx.fragment.app.activityViewModels
+import android.widget.ImageView
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.generation.task4e5.adapter.Postadapter
 
 
 class CatalogoFragment : Fragment() {
@@ -26,6 +23,21 @@ class CatalogoFragment : Fragment() {
 
 
         val view = inflater.inflate(R.layout.fragment_catalogo, container, false)
+
+
+
+        val botaoabacate = view.findViewById<ImageView>(R.id.abacate1)
+
+       botaoabacate.setOnClickListener {
+
+            findNavController().navigate(
+                R.id.action_catalogoFragment_to_perfilragment
+            )
+
+        }
+
+
+
 
 
 

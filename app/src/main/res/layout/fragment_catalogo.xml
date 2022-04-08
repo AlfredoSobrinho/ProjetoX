@@ -125,6 +125,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
+                        android:id="@+id/abacate1"
                         android:layout_width="110dp"
                         android:layout_height="match_parent"
                         android:layout_gravity="end"
