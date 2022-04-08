@@ -52,6 +52,12 @@ clique de distância.
 - [x] Navegação de telas.
 - [x] Validação de dados.
 
+
+![Apresentação sem título - Apresentacao_Projeto pdf - Mozilla Firefox 08_04_2022 13_23_14](https://user-images.githubusercontent.com/93824520/162482973-a8ce944a-8701-4c39-9856-ddfa096cacfa.png)
+
+
+
+
 ## Implementações Futuras
 
 - [x] Geolocalização do usuario.
