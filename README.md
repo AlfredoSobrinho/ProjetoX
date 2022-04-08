@@ -52,12 +52,6 @@ clique de distância.
 - [x] Navegação de telas.
 - [x] Validação de dados.
 
-
-![Apresentação sem título - Apresentacao_Projeto pdf - Mozilla Firefox 08_04_2022 13_23_14](https://user-images.githubusercontent.com/93824520/162482973-a8ce944a-8701-4c39-9856-ddfa096cacfa.png)
-
-
-
-
 ## Implementações Futuras
 
 - [x] Geolocalização do usuario.
@@ -73,6 +67,11 @@ clique de distância.
 
 O layout da aplicação inicial disponível no Marvel:
 [Protótipo Navegável](https://marvelapp.com/prototype/90418ga/screen/85662155)
+
+Design Final: [Design da Aplicação](https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/461964788/8453731?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220408T162809Z&X-Amz-Expires=300&X-Amz-Signature=eec5bb3e65255664b1e906a1733b9282ece5bfe3c816402b854194fc0b28e5d7&X-Amz-SignedHeaders=host&actor_id=93824520&key_id=0&repo_id=461964788&response-content-disposition=attachment%3Bfilename%3DApresentacao_Projeto.pdf&response-content-type=application%2Fpdf)
+
+![Apresentação sem título - Apresentacao_Projeto pdf - Mozilla Firefox 08_04_2022 13_23_14](https://user-images.githubusercontent.com/93824520/162482973-a8ce944a-8701-4c39-9856-ddfa096cacfa.png)
+
 
 
 <a id="-como-executar-o-projeto"></a>
