@@ -27,7 +27,7 @@
 
 ## Sobre o Projeto
 <p align="center"> 
-   Atualmente certa de 24,1% da população brasileira vive abaixo da linha a pobreza, juntando e esse dado 
+   Atualmente certa de 24,1% da população brasileira vive abaixo da linha a pobreza, juntando esse dado 
 e uma das primeiras ODS da ONU(* Erradicação da Pobreza), criamos uma aplicação que concentra informações e
  benefícios disponíveis para pessoas de alta vulnerabilidade terem acesso ou até descobrir lugares e redes de apoio afim 
 de uma evolução de vida.
@@ -68,7 +68,7 @@ clique de distância.
 O layout da aplicação inicial disponível no Marvel:
 [Protótipo Navegável](https://marvelapp.com/prototype/90418ga/screen/85662155)
 
-Design Final: [Design da Aplicação](https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/461964788/8453731?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220408T191221Z&X-Amz-Expires=300&X-Amz-Signature=7e41c133f6c635c2b4a1689b871c4a4e04b9a6f1815299d72e566230bb78b7a6&X-Amz-SignedHeaders=host&actor_id=93824520&key_id=0&repo_id=461964788&response-content-disposition=attachment%3Bfilename%3DApresentacao_Projeto.pdf&response-content-type=application%2Fpdf)
+Design Final: [Design da Aplicação](https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/461964788/8453731?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220414T190425Z&X-Amz-Expires=300&X-Amz-Signature=70247e1fdfc7b74b4defa12154f1f209195a79160a0741d9af94843266f09151&X-Amz-SignedHeaders=host&actor_id=93824520&key_id=0&repo_id=461964788&response-content-disposition=attachment%3Bfilename%3DApresentacao_Projeto.pdf&response-content-type=application%2Fpdf)
 
 ![Apresentação sem título - Apresentacao_Projeto pdf - Mozilla Firefox 08_04_2022 13_23_14](https://user-images.githubusercontent.com/93824520/162482973-a8ce944a-8701-4c39-9856-ddfa096cacfa.png)
 
