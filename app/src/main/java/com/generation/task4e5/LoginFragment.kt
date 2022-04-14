@@ -61,7 +61,7 @@ class LoginFragment : Fragment() {
 
         if(email != emailinterno || senha!=senhainterna){
 
-            Toast.makeText(context, "Usuario não cadastrado!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "Usuario não cadastrado ou Senha incorreta!", Toast.LENGTH_SHORT).show()
 
         }else{
             findNavController().navigate(R.id.action_loginFragment_to_listFragment)

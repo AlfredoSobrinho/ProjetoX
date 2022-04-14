@@ -59,10 +59,11 @@
         android:id="@+id/imageView10"
         android:layout_width="423dp"
         android:layout_height="137dp"
+        android:layout_marginTop="4dp"
         android:scaleType="fitXY"
         android:src="@drawable/bloco1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fundoOngView" />
 
@@ -111,10 +112,11 @@
         android:id="@+id/imageView12"
         android:layout_width="416dp"
         android:layout_height="233dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="120dp"
         android:scaleType="centerCrop"
         android:src="@drawable/bloco1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fundoOngView" />
 
@@ -176,14 +178,56 @@
         app:layout_constraintVertical_bias="0.0" />
 
 
+    <TextView
+        android:id="@+id/alimentosite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.alimentodobem.org"
+        android:textColor="#052B9C"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
 
+    <ImageButton
+        android:id="@+id/zapbutton"
+        android:layout_width="84dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#F8F5F5"
+        android:scaleType="fitXY"
+        android:src="@drawable/whats_removebg_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nos chame no Whatsapp"
+        android:textAlignment="center"
+        android:textColor="#514F4F"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="0dp"
         android:layout_height="57dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="3dp"
-        android:layout_marginEnd="0dp"
         android:background="@color/white"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
