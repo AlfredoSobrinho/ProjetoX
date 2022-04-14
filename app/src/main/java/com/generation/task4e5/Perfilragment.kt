@@ -1,11 +1,14 @@
 package com.generation.task4e5
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
+import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 
 
@@ -21,6 +24,29 @@ class Perfilragment : Fragment() {
 
 
         val view = inflater.inflate(R.layout.fragment_perfilragment, container, false)
+
+
+        val botaozap = view.findViewById<ImageButton>(R.id.zapbutton)
+        botaozap.setOnClickListener {
+
+            val queryuri = Uri.parse("https://wa.me/5511945674401")
+            val intentGoogle = Intent(Intent.ACTION_VIEW,queryuri)
+            val chosser = Intent.createChooser(intentGoogle, "Abrir Whatsapp")
+
+            startActivity(chosser)
+
+        }
+
+        val sitealimento = view.findViewById<TextView>(R.id.alimentosite)
+        sitealimento.setOnClickListener {
+
+            val queryuri = Uri.parse("https://www.amigosdobem.org/arrecadacao-e-distribuicao-de-alimentos/")
+            val intentGoogle = Intent(Intent.ACTION_VIEW,queryuri)
+            val chosser = Intent.createChooser(intentGoogle, "Abrir site")
+
+            startActivity(chosser)
+
+        }
 
 
 
